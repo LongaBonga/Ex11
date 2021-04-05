@@ -33,7 +33,7 @@ TEST(Train, test2) {
     EXPECT_EQ(3 * n, train.length());
 }
 
-TEST(Train, test1) {
+TEST(Train, test3) {
     Train train;
     Cage* cage = new Cage();
     train.addCage(cage);
